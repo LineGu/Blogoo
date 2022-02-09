@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component match snapshot 1`] = `
+<div>
+  <header
+    class="css-jc1se7"
+  >
+    <div
+      class="css-1xuqsws"
+    >
+      <a
+        class="css-ids50t"
+      >
+        Goo's Blog
+      </a>
+    </div>
+  </header>
+</div>
+`;
