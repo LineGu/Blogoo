@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component match snapshot 1`] = `
+<div>
+  <header
+    class="css-jc1se7"
+  >
+    <div
+      class="css-1xuqsws"
+      data-testid="grid"
+    >
+      <a
+        class="css-ids50t"
+      >
+        Goo's Blog
+      </a>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Header Component 스냅샷과 일치하는가 1`] = `
+<div>
+  <header
+    class="css-jc1se7"
+  >
+    <div
+      class="css-1xuqsws"
+      data-testid="grid"
+    >
+      <a
+        class="css-ids50t"
+      >
+        Goo's Blog
+      </a>
+    </div>
+  </header>
+</div>
+`;

@@ -17,10 +17,13 @@
         "paths": {
             "@components/*": ["src/components/*"],
             "@constants/*": ["src/constants/*"],
-            "@styles/*": ["styles/*"]
+            "@styles/*": ["styles/*"],
+            "@icons/*": ["public/icons/*"],
+            "@images/*": ["public/images/*"]
         },
         "isolatedModules": true
     },
+    "typeRoots": ["./@types", "./node_modules/@types"],
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]
 }

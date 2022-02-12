@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import React from 'react';
 import Head from 'next/head';
 import Header from '@components/commons/Header';
+import Footer from '@components/commons/Footer';
 
 const Home: NextPage = () => {
     return (
@@ -39,6 +40,7 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.png" />
             </Head>
             <Header />
+            <Footer />
         </div>
     );
 };
