@@ -1,6 +1,8 @@
 # Goo's Blog
 
-### Tech Stack : TypeScript, React, Next.js, Emotion, Recoil, React-query, Jest, React-testing-library
+### Tech Stack
+
+TypeScript, React, Next.js, Emotion, Recoil, React-query, Jest, React-testing-library
 
 ### 목표
 
