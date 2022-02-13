@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import CustomLink from '../CustomLink';
 
 export const HeaderWrapper = styled.header`
     display: flex;
@@ -7,14 +8,9 @@ export const HeaderWrapper = styled.header`
     height: 4rem;
 `;
 
-export const Title = styled.a`
-    font-family: 'Pretendard-Bold';
-    text-decoration: none;
-    font-size: 2rem;
+export const BlogTitle = styled(CustomLink)`
+    font-family: 'Pretendard-ExtraBold';
+    font-size: 1.2rem;
     font-weight: 800;
     color: black;
-
-    &:hover {
-        cursor: pointer;
-    }
 `;

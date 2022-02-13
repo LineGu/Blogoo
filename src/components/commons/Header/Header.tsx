@@ -1,20 +1,17 @@
 import React, { ReactElement } from 'react';
-import Link from 'next/link';
 import PATH from '@constants/path';
 import Grid from '@components/commons/Grid';
 import * as S from './Header.style';
 
-const ASSETS = {
-    TITLE: `Goo's Blog`,
+export const ASSETS = {
+    TITLE: `Goo.Blog`,
 };
 
 function Header(): ReactElement {
     return (
         <S.HeaderWrapper>
             <Grid>
-                <Link href={PATH.HOME}>
-                    <S.Title>{ASSETS.TITLE}</S.Title>
-                </Link>
+                <S.BlogTitle href={PATH.HOME}>{ASSETS.TITLE}</S.BlogTitle>
             </Grid>
         </S.HeaderWrapper>
     );

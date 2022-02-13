@@ -17,9 +17,11 @@
         "paths": {
             "@components/*": ["src/components/*"],
             "@constants/*": ["src/constants/*"],
+            "@apis/*": ["src/apis/*"],
             "@styles/*": ["styles/*"],
             "@icons/*": ["public/icons/*"],
-            "@images/*": ["public/images/*"]
+            "@images/*": ["public/images/*"],
+            "@hooks/*": ["src/hooks/*"]
         },
         "isolatedModules": true
     },

@@ -17,6 +17,8 @@ module.exports = {
         ),
         '^@components(.*)$': '<rootDir>/src/components$1',
         '^@constants(.*)$': '<rootDir>/src/constants$1',
+        '^@apis(.*)$': '<rootDir>/src/apis$1',
+        '^@hooks(.*)$': '<rootDir>/src/hooks$1',
         '^@icons(.*)$': '<rootDir>/public/icons$1',
         '^@images(.*)$': '<rootDir>/public/images$1',
         '^@styles(.*)$': '<rootDir>/styles$1',

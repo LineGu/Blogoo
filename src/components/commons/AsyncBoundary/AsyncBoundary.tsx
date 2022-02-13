@@ -1,6 +1,6 @@
 import React, { Suspense, ReactElement } from 'react';
-import PropTypes from 'prop-types';
 import ErrorBoundary from '../ErrorBoundary';
+import SSRSafeSuspense from '../SSRSafeSuspense';
 
 export type RejectedFallbackFuncType = ({
     error,
@@ -24,15 +24,9 @@ function AsyncBoundary({
 }: IProps) {
     return (
         <ErrorBoundary renderFallback={renderRejectedFallback} {...errorBoundaryOhterProps}>
-            <Suspense fallback={pendingFallback}>{children}</Suspense>
+            <SSRSafeSuspense fallback={pendingFallback}>{children}</SSRSafeSuspense>
         </ErrorBoundary>
     );
 }
-
-AsyncBoundary.propTypes = {
-    pendingFallback: PropTypes.node.isRequired,
-    rejectedFallback: PropTypes.func.isRequired,
-    children: PropTypes.node.isRequired,
-};
 
 export default AsyncBoundary;
